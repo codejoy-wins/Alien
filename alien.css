@@ -1,0 +1,10 @@
+#alien{
+    display: block;
+    margin: 0 auto;
+    width: 88%;
+}
+
+#musicplayer{
+    text-align: center;
+    vertical-align: top;
+}

@@ -1,0 +1,14 @@
+#alien{
+    background-image: url(./alien.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#listen{
+    padding-top: 3rem;
+    text-align: center;
+}
