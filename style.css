@@ -1,7 +1,5 @@
 #alien{
-    background-image: url(./alien.jpg);
-    background-size: cover;
-    height: 900px;
+    opacity: 1;
 }
 
 a{
@@ -11,4 +9,18 @@ a{
 #listen{
     padding-top: 3rem;
     text-align: center;
+}
+
+#jann{
+    color: black;
+    opacity: .8;
+}
+#content{
+    height: 100rem;
+}
+#fix{
+    background-image: url(./alien.jpg);
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
 }
