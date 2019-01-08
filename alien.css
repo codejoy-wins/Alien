@@ -7,4 +7,7 @@
 #musicplayer{
     text-align: center;
     vertical-align: top;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
 }
