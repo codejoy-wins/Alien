@@ -9,6 +9,9 @@ a{
 #listen{
     padding-top: 3rem;
     text-align: center;
+    position: relative;
+    right: 2rem;
+    bottom: 12rem;
 }
 
 #jann{
@@ -19,8 +22,13 @@ a{
     height: 100rem;
 }
 #fix{
-    background-image: url(./alien.jpg);
+    /* background-image: url(./alien.jpg); */
     margin: 0 auto;
     width: 100%;
+    height: auto;
+}
+
+#truth{
+    width:100%;
     height: auto;
 }
