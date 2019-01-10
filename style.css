@@ -32,3 +32,12 @@ a{
     width:100%;
     height: auto;
 }
+#mas{
+    height: 40rem;
+    background-color: gold;
+    text-align: center;
+}
+#songlist{
+    padding: 2rem;
+    margin: 1rem;
+}

@@ -26,6 +26,41 @@
             <div id="content">
                 <a href="./formal.html">Formal</a>
             </div>
+            <div id="mas">
+                <p>Here's some more stuff</p>
+                <button id="songlist">
+                    Show Tracks
+                </button>
+                <div id="output">
+                    
+                </div>
+            </div>
     </div>
 </body>
+<script>
+    document.getElementById("songlist").addEventListener('click', myFunc);
+
+    function myFunc(){
+        fetch("songs.json")
+        .then((res)=>res.json())
+        .then((data)=>{
+            console.log(data);
+            let output = `
+                <h1>DJ Alien</h1>
+                <h2>Tracklist</h2>
+                <ul>
+            `;
+            data.forEach(function(song){
+                output+= `
+                    <li>${song.Title} by ${song.Artist}</li>
+                `
+                output+= `
+                    </ul>
+                `
+            })
+            document.getElementById("output").innerHTML += output;
+
+        })
+    }
+</script>
 </html>
