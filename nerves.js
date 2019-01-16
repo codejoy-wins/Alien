@@ -6,13 +6,19 @@ function SongRandomizer(){
     var song;
     var rando = Math.random();
     console.log(rando);
-    if(rando >.33 && rando <.66){
+    if(rando <.2){
         console.log("stop looking at my code");
         song = "Drowning.mp3";
 
-    }else if(rando > .66){
+    }else if(rando < .4){
+        console.log("hi");
+        song = "Treat.mp3";
+    }else if(rando < .6){
         console.log("hi");
         song = "radiohead.mp3";
+    }else if(rando < .8){
+        console.log("hi");
+        song = "Love.mp3";
     }else{
         song = "KILLSHOT.mp3";
 
