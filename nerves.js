@@ -3,28 +3,28 @@ var master = ["Drowning.mp3", "KILLSHOT.mp3", "radiohead.mp3"];
 
 function SongRandomizer(){
     console.log("hi");
+    console.log("stop looking at my code");
     var song;
     var rando = Math.random();
     console.log(rando);
-    if(rando <.15){
-        console.log("stop looking at my code");
+    if(rando <.1){
         song = "Drowning.mp3";
-
-    }else if(rando < .3){
-        console.log("hi");
+    }else if(rando < .2){
         song = "Treat.mp3";
-    }else if(rando < .45){
-        console.log("hi");
+    }else if(rando < .3){
         song = "radiohead.mp3";
-    }else if(rando < .6){
-        console.log("hi");
+    }else if(rando < .4){
         song = "Love.mp3";
-    }else if(rando < .8){
-        console.log("hi");
+    }else if(rando < .5){
         song = "Perfume.mp3";
-    }else{
+    }else if(rando < .6){
         song = "KILLSHOT.mp3";
-
+    }else if(rando < .7){
+        song = "Mind.mp3";
+    }else if(rando < .8){
+        song = "Hey.mp3";
+    }else{
+        song = "Sunshine.mp3";
     }
     var target = document.getElementById("musicplayer");
     var msg = "<embed src='./"+song+"'></embed>";

@@ -18,5 +18,17 @@
     {
         "Artist": "Queen",
         "Title": "Perfume Genius"
+    },
+    {
+        "Artist": "Gorillaz",
+        "Title": "Clint Eastwood"
+    },
+    {
+        "Artist": "Pixies",
+        "Title": "Where is my Mind"
+    },
+    {
+        "Artist": "Pixies",
+        "Title": "Hey"
     }
 ]
