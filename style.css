@@ -1,7 +1,11 @@
 #alien{
     opacity: 1;
 }
-
+h1{
+    color: aquamarine;
+    padding:1rem;
+    background-color: black;
+}
 a{
     text-decoration: none;
     color: aliceblue;
