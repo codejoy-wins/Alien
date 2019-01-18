@@ -30,5 +30,9 @@
     {
         "Artist": "Pixies",
         "Title": "Hey"
+    },
+    {
+        "Artist": "Queen",
+        "Title": "Bohemian Rhapsody"
     }
 ]

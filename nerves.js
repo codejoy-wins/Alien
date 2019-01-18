@@ -23,6 +23,8 @@ function SongRandomizer(){
         song = "Mind.mp3";
     }else if(rando < .8){
         song = "Hey.mp3";
+    }else if(rando < .9){
+        song = "Bohemian.mp3";
     }else{
         song = "Sunshine.mp3";
     }
