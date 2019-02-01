@@ -7,24 +7,26 @@ function SongRandomizer(){
     var song;
     var rando = Math.random();
     console.log(rando);
-    if(rando <.1){
+    if(rando <.08){
         song = "Drowning.mp3";
-    }else if(rando < .2){
+    }else if(rando < .16){
         song = "Treat.mp3";
-    }else if(rando < .3){
+    }else if(rando < .32){
         song = "radiohead.mp3";
     }else if(rando < .4){
         song = "Love.mp3";
-    }else if(rando < .5){
+    }else if(rando < .48){
         song = "Perfume.mp3";
-    }else if(rando < .6){
+    }else if(rando < .56){
         song = "KILLSHOT.mp3";
-    }else if(rando < .7){
+    }else if(rando < .62){
         song = "Mind.mp3";
-    }else if(rando < .8){
+    }else if(rando < .68){
         song = "Hey.mp3";
-    }else if(rando < .9){
+    }else if(rando < .76){
         song = "Bohemian.mp3";
+    }else if(rando < .9){
+        song = "Hurt.mp3";
     }else{
         song = "Sunshine.mp3";
     }
